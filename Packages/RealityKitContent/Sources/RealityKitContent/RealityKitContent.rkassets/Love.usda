@@ -1,0 +1,128 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (448.100.13)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "ANXIN" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+        customData = {
+            float3 rotationEulerHint = (0, 3.1415927, 0)
+        }
+        references = @ANXIN.usdc@
+    )
+    {
+        rel material:binding = </Root/ANXIN/_materials/initialShadingGroup_003> (
+            bindMaterialAs = "strongerThanDescendants"
+        )
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+        quatf xformOp:orient = (-4.3711356e-8, 0, 1, 0)
+        float3 xformOp:scale = (8.4805, 8.4805, 8.4805)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "_materials"
+        {
+            over "initialShadingGroup_003"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+
+                over "previewShader"
+                {
+                    color3f inputs:diffuseColor = (0.9063318, 0.55080134, 0.85079706) (
+                        colorSpace = "srgb_displayp3"
+                    )
+                    color3f inputs:emissiveColor = (0.87051785, 0.6383854, 0.8454932) (
+                        colorSpace = "srgb_displayp3"
+                    )
+                }
+            }
+        }
+    }
+
+    def "ANXIN2_1" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 3.1415927, 0)
+        }
+        references = @ANXIN2 1.usdc@
+    )
+    {
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+        quatf xformOp:orient = (-4.3711356e-8, 0, 1, 0)
+        float3 xformOp:scale = (8.4805, 8.4805, 8.4805)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "_materials"
+        {
+            reorder nameChildren = ["initialShadingGroup_004", "Material_3"]
+            over "initialShadingGroup_004"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+            }
+
+            def Material "Material_3"
+            {
+                token outputs:mtlx:surface
+                token outputs:realitykit:vertex
+                token outputs:surface.connect = </Root/ANXIN2_1/_materials/Material_3/UsdPreviewSurface.outputs:surface>
+
+                def Shader "UsdPreviewSurface"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (0.953012, 0.12323229, 0.44023883) (
+                        colorSpace = "srgb_displayp3"
+                    )
+                    color3f inputs:emissiveColor = (0.8848511, 0.18208998, 0.6372762) (
+                        colorSpace = "srgb_displayp3"
+                    )
+                    token outputs:surface
+                }
+            }
+
+            def Material "initialShadingGroup_003" (
+                prepend references = </Root/ANXIN2/_materials/initialShadingGroup_003>
+            )
+            {
+                token outputs:surface.connect = </Root/ANXIN2_1/_materials/initialShadingGroup_003/previewShader.outputs:surface>
+                float2 ui:nodegraph:node:pos = (296.59665, 181.4721)
+                int ui:nodegraph:node:stackingOrder = 1
+                custom string userProperties:blender:data_name = "initialShadingGroup.003"
+
+                def Shader "previewShader"
+                {
+                    uniform token info:id = "UsdPreviewSurface"
+                    color3f inputs:diffuseColor = (0.8, 0.8, 0.8)
+                    float inputs:metallic = 0
+                    float inputs:roughness = 0.4
+                    token outputs:surface
+                }
+            }
+        }
+
+        over "TEXIAO3_TEXIAO_TEXIAO_001"
+        {
+            over "TEXIAO3_TEXIAO_TEXIAO_001" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = </Root/ANXIN2_1/_materials/Material_3> (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+            }
+        }
+    }
+}
+

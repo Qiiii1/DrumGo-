@@ -1,0 +1,218 @@
+#usda 1.0
+(
+    defaultPrim = "Drum"
+)
+
+def "Drum" (
+    active = true
+    customData = {
+        float3 rotationEulerHint = (0.5235988, 0, 0)
+    }
+    references = @Drum.usdz@
+)
+{
+    reorder nameChildren = ["HighDrumAudio", "geom", "BaseDrum", "Transform", "Bass_drum_MP3", "Sphere", "Collider", "InputTarget", "SpatialAudio"]
+    quatf xformOp:orient = (0.9659258, 0.25881904, 0, 0)
+    float3 xformOp:scale = (100, 100, 100)
+    float3 xformOp:translate = (0, 100, -100)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    def RealityKitTimeline "BaseDrum"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Play_Audio"
+            {
+                string actionKind = "audio"
+                string audioResourceName = "Bass drum.MP3"
+                bool controlPlayback = 1
+                double duration = 0.4440625
+                uniform token info:id = "91AEDFAC-5496-4188-A3F6-6BEA6406F15C"
+                double startTime = 0
+                rel target = </Drum/Transform>
+
+                def RealityKitStruct "handoffType"
+                {
+                }
+            }
+        }
+    }
+
+    def Xform "Transform" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 0, 0)
+        }
+    )
+    {
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0.00013686717, 0.19820437, 0.015686989)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "SpatialAudio"
+        {
+            uniform token info:id = "RealityKit.SpatialAudio"
+            float rolloffFactor = 0
+        }
+
+        def RealityKitComponent "AudioLibrary"
+        {
+            uniform token info:id = "RealityKit.AudioLibrary"
+
+            def RealityKitDict "resources"
+            {
+                string[] keys = ["Bass drum.MP3"]
+                rel values = </Drum/Bass_drum_MP3>
+            }
+        }
+    }
+
+    over "geom"
+    {
+    }
+
+    def Sphere "Sphere" (
+        active = true
+        prepend apiSchemas = ["MaterialBindingAPI"]
+        customData = {
+            float3 rotationEulerHint = (-1.1920929e-7, 1.4901167e-8, 2.5809568e-8)
+        }
+    )
+    {
+        rel material:binding = </Drum/Sphere/DefaultMaterial>
+        double radius = 0.1
+        quatf xformOp:orient = (1, -7.45058e-8, 7.450582e-9, 1.2904785e-8)
+        float3 xformOp:scale = (1.5, 2.2204466e-16, 1.5000001)
+        float3 xformOp:translate = (0, 0.19769844, -0.0023568869)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            token outputs:mtlx:surface
+            token outputs:realitykit:vertex
+            prepend token outputs:surface.connect = </Drum/Sphere/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                color3f inputs:diffuseColor = (1, 1, 1)
+                float inputs:roughness = 0.75
+                token outputs:surface
+            }
+        }
+
+        def RealityKitComponent "InputTarget"
+        {
+            uniform token info:id = "RealityKit.InputTarget"
+        }
+
+        def RealityKitComponent "RCP_BehaviorsContainer"
+        {
+            rel behaviors = </Drum/Sphere/OnNotification>
+            uniform token info:id = "RCP.BehaviorsContainer"
+        }
+
+        def Preliminary_Behavior "OnNotification"
+        {
+            rel actions = </Drum/Sphere/OnNotification/Action>
+            uniform bool exclusive
+            rel triggers = </Drum/Sphere/OnNotification/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Drum/Sphere>
+                string identifier = "BaseDrum"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Drum>
+                rel animationLibraryKey = </Drum/BaseDrum>
+                rel animationLibraryKeyOverrideKey = </Drum/Sphere/OnNotification/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def RealityKitComponent "Collider"
+        {
+            uint group = 1
+            uniform token info:id = "RealityKit.Collider"
+            uint mask = 4294967295
+            token type = "Default"
+
+            def RealityKitStruct "Shape"
+            {
+                float3 extent = (0.2, 0.2, 0.2)
+                float radius = 0.1
+                token shapeType = "Sphere"
+
+                def RealityKitStruct "pose"
+                {
+                }
+            }
+        }
+    }
+
+    def RealityKitComponent "Collider"
+    {
+        uint group = 1
+        uniform token info:id = "RealityKit.Collider"
+        uint mask = 4294967295
+        token type = "Default"
+
+        def RealityKitStruct "Shape"
+        {
+            float3 extent = (0.3975126, 0.22362265, 0.39751273)
+            float height = 0.22362265
+            float radius = 0.19875637
+            token shapeType = "Sphere"
+
+            def RealityKitStruct "pose"
+            {
+                float3 position = (-9.685755e-8, 0.111811325, 0.0010155216)
+            }
+        }
+    }
+
+    def RealityKitComponent "InputTarget"
+    {
+        uniform token info:id = "RealityKit.InputTarget"
+    }
+
+    def RealityKitComponent "SpatialAudio"
+    {
+        uniform token info:id = "RealityKit.SpatialAudio"
+    }
+
+    def RealityKitAudioFile "Bass_drum_MP3"
+    {
+        uniform asset file = @Sound/Bass drum.MP3@
+        uniform bool shouldLoop = 0
+    }
+
+    def Xform "HighDrumAudio" (
+        customData = {
+            float3 rotationEulerHint = (2.1143177, 0, 0)
+        }
+    )
+    {
+        quatf xformOp:orient = (0.4913486, 0.87096304, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0, 0.21962765, -0.018573523)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "SpatialAudio"
+        {
+            float directivityFocus = 0
+            float gain = 0
+            uniform token info:id = "RealityKit.SpatialAudio"
+            float rolloffFactor = 1.8504313
+        }
+    }
+}
+

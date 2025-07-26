@@ -2,7 +2,7 @@
 //  GameView.swift
 //  DrumGo
 //
-//  Created by 李棋 on 2025/7/1.
+//  Created by 李棋 on 2025/7/23.
 //
 
 import SwiftUI
