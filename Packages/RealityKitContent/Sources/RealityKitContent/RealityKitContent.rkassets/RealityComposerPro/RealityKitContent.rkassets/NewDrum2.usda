@@ -1,0 +1,913 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (448.60.4)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def Xform "Group" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (-1.570796, -1.856169, 1.5707961)
+        }
+    )
+    {
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+        quatf xformOp:orient = (0.69992083, 0.10055253, -0.6999209, -0.100552514)
+        float3 xformOp:scale = (1.15, 1.1500001, 1.15)
+        float3 xformOp:translate = (1.7281724, -0.06050255, 1.7733148)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "drum_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 0, 0)
+            }
+            references = @drum-2.usd@
+        )
+        {
+            rel material:binding = </Root/MaterialEx06b> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            quatf xformOp:orient = (0.99999994, 0, 0, 0)
+            float3 xformOp:scale = (0.20103434, 0.20103434, 0.20103434)
+            float3 xformOp:translate = (0.057776812, -5.7742014e-8, 1.4708079)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "drum4_1" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 0, 0)
+            }
+            references = @drum4 1.usd@
+        )
+        {
+            rel material:binding = </Root/Material> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.19428921, 0.19428921, 0.19428921)
+            double3 xformOp:translate = (0.4773760139942169, 0.02303680218756199, 1.4723953008651733)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "drum4_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 6.029849e-15, 0)
+            }
+            references = @drum4 1.usd@
+        )
+        {
+            rel material:binding = </Root/Material_2> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            float2 ui:nodegraph:node:pos = (-25.010456, 73.22543)
+            int ui:nodegraph:node:stackingOrder = 1
+            quatf xformOp:orient = (1, 0, 3.0149244e-15, 0)
+            float3 xformOp:scale = (0.073648475, 0.073648475, 0.073648475)
+            double3 xformOp:translate = (0.22761893272399902, 0.14403162896633148, 1.4723619222640991)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "Group_1" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (-1.570796, -1.856169, 1.5707961)
+        }
+    )
+    {
+        float2 ui:nodegraph:node:pos = (-5.010456, 93.22543)
+        int ui:nodegraph:node:stackingOrder = 2
+        quatf xformOp:orient = (0.699921, 0.100552484, -0.6999207, -0.10055244)
+        float3 xformOp:scale = (0.99999964, 0.9999995, 0.99999964)
+        float3 xformOp:translate = (1.8016613, 0.09127065, 1.469461)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "drum_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 0, 0)
+            }
+            references = @drum-2.usd@
+        )
+        {
+            rel material:binding = </Root/MaterialEx06b> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            quatf xformOp:orient = (0.99999994, 0, 0, 0)
+            float3 xformOp:scale = (0.20103434, 0.20103434, 0.20103434)
+            float3 xformOp:translate = (0.057776812, -5.7742014e-8, 1.4708079)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "drum4_1" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 0, 0)
+            }
+            references = @drum4 1.usd@
+        )
+        {
+            rel material:binding = </Root/Material> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.19428921, 0.19428921, 0.19428921)
+            double3 xformOp:translate = (0.4773760139942169, 0.02303680218756199, 1.4723953008651733)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "drum4_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 6.029849e-15, 0)
+            }
+            references = @drum4 1.usd@
+        )
+        {
+            rel material:binding = </Root/Material_2> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            float2 ui:nodegraph:node:pos = (-25.010456, 73.22543)
+            int ui:nodegraph:node:stackingOrder = 1
+            quatf xformOp:orient = (1, 0, 3.0149244e-15, 0)
+            float3 xformOp:scale = (0.073648475, 0.073648475, 0.073648475)
+            double3 xformOp:translate = (0.22761893272399902, 0.14403162896633148, 1.4723619222640991)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "Group_2" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (-1.570796, -1.856169, 1.5707961)
+        }
+    )
+    {
+        float2 ui:nodegraph:node:pos = (14.989544, 113.22543)
+        int ui:nodegraph:node:stackingOrder = 3
+        quatf xformOp:orient = (0.699921, 0.10055249, -0.6999207, -0.10055244)
+        float3 xformOp:scale = (0.99999964, 0.99999946, 0.99999964)
+        float3 xformOp:translate = (2.2532487, 0.09127062, 1.4694555)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "drum_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 0, 0)
+            }
+            references = @drum-2.usd@
+        )
+        {
+            rel material:binding = </Root/MaterialEx06b> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            quatf xformOp:orient = (0.99999994, 0, 0, 0)
+            float3 xformOp:scale = (0.20103434, 0.20103434, 0.20103434)
+            float3 xformOp:translate = (0.057776812, -5.7742014e-8, 1.4708079)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "drum4_1" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 0, 0)
+            }
+            references = @drum4 1.usd@
+        )
+        {
+            rel material:binding = </Root/Material> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.19428921, 0.19428921, 0.19428921)
+            double3 xformOp:translate = (0.4773760139942169, 0.02303680218756199, 1.4723953008651733)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "drum4_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 6.029849e-15, 0)
+            }
+            references = @drum4 1.usd@
+        )
+        {
+            rel material:binding = </Root/Material_2> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            float2 ui:nodegraph:node:pos = (-25.010456, 73.22543)
+            int ui:nodegraph:node:stackingOrder = 1
+            quatf xformOp:orient = (1, 0, 3.0149244e-15, 0)
+            float3 xformOp:scale = (0.073648475, 0.073648475, 0.073648475)
+            double3 xformOp:translate = (0.22761893272399902, 0.14403162896633148, 1.4723619222640991)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "Group_3" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (-1.570796, -1.856169, 1.5707961)
+        }
+    )
+    {
+        float2 ui:nodegraph:node:pos = (34.989544, 133.22543)
+        int ui:nodegraph:node:stackingOrder = 4
+        quatf xformOp:orient = (0.699921, 0.10055245, -0.6999206, -0.10055241)
+        float3 xformOp:scale = (1.4999998, 1.4999994, 1.4999998)
+        float3 xformOp:translate = (3.3566263, -0.13394378, 1.7818913)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "drum_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 0, 0)
+            }
+            references = @drum-2.usd@
+        )
+        {
+            rel material:binding = </Root/MaterialEx06b> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            quatf xformOp:orient = (0.99999994, 0, 0, 0)
+            float3 xformOp:scale = (0.20103434, 0.20103434, 0.20103434)
+            float3 xformOp:translate = (0.057776812, -5.7742014e-8, 1.4708079)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "drum4_1" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 0, 0)
+            }
+            references = @drum4 1.usd@
+        )
+        {
+            rel material:binding = </Root/Material> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.19428921, 0.19428921, 0.19428921)
+            double3 xformOp:translate = (0.4773760139942169, 0.02303680218756199, 1.4723953008651733)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "drum4_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 6.029849e-15, 0)
+            }
+            references = @drum4 1.usd@
+        )
+        {
+            rel material:binding = </Root/Material_2> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            float2 ui:nodegraph:node:pos = (-25.010456, 73.22543)
+            int ui:nodegraph:node:stackingOrder = 1
+            quatf xformOp:orient = (1, 0, 3.0149244e-15, 0)
+            float3 xformOp:scale = (0.073648475, 0.073648475, 0.073648475)
+            double3 xformOp:translate = (0.22761893272399902, 0.14403162896633148, 1.4723619222640991)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "Group_4" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (-1.5707965, -3.051757, 1.5707961)
+        }
+    )
+    {
+        float2 ui:nodegraph:node:pos = (54.989544, 153.22543)
+        int ui:nodegraph:node:stackingOrder = 5
+        quatf xformOp:orient = (0.5219471, 0.47704422, -0.52194697, -0.47704443)
+        float3 xformOp:scale = (1.5960296, 1.5960294, 1.5960295)
+        float3 xformOp:translate = (2.914447, -0.055499688, 1.3453372)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "drum_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 0, 0)
+            }
+            references = @drum-2.usd@
+        )
+        {
+            rel material:binding = </Root/MaterialEx06b> (
+                bindMaterialAs = "weakerThanDescendants"
+            )
+            quatf xformOp:orient = (0.99999994, 0, 0, 0)
+            float3 xformOp:scale = (0.20103434, 0.20103434, 0.20103434)
+            float3 xformOp:translate = (0.057776812, -5.7742014e-8, 1.4708079)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "drum4_1" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 0, 0)
+            }
+            references = @drum4 1.usd@
+        )
+        {
+            rel material:binding = </Root/Material> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (0.19428921, 0.19428921, 0.19428921)
+            double3 xformOp:translate = (0.4773760139942169, 0.02303680218756199, 1.4723953008651733)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "drum4_2" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0, 6.029849e-15, 0)
+            }
+            references = @drum4 1.usd@
+        )
+        {
+            reorder nameChildren = ["pasted__pCylinder2", "Looks", "MaterialEx06b_1"]
+            rel material:binding = </Root/Material_2> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            float2 ui:nodegraph:node:pos = (-25.010456, 73.22543)
+            int ui:nodegraph:node:stackingOrder = 1
+            quatf xformOp:orient = (1, 0, 3.0149244e-15, 0)
+            float3 xformOp:scale = (0.073648475, 0.073648475, 0.073648475)
+            double3 xformOp:translate = (0.22761893272399902, 0.14403162896633148, 1.4723619222640991)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+    }
+
+    def Xform "Group_5" (
+        active = true
+    )
+    {
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+        quatf xformOp:orient = (1, 0, 0, 0)
+        float3 xformOp:scale = (0.9999999, 0.9999999, 0.9999999)
+        float3 xformOp:translate = (0.15573357, 4.0978197e-8, -0.09488946)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "jiazi" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (-4.7123885, -0.18968093, 3.1415925)
+            }
+            references = @jiazi.usdc@
+        )
+        {
+            rel material:binding = </Root/Material_5> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (-0.066961825, 0.06696185, 0.70392907, 0.70392907)
+            float3 xformOp:scale = (0.08288976, 0.08288976, 0.082889736)
+            float3 xformOp:translate = (1.671806, -3.1613896, 2.575184)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "cha" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0.4770237, 0.71943223, 1.88979)
+            }
+            references = @cha.usdc@
+        )
+        {
+            rel material:binding = </Root/Material_3> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (0.60020953, -0.14765659, 0.3795947, 0.6883704)
+            float3 xformOp:scale = (0.13212965, 0.13212965, 0.13212965)
+            float3 xformOp:translate = (1.1300787, 0.30242056, 0.061941393)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "______"
+            {
+                over "mesh178" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = None (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+
+                    over "_______199" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Root/Group_5/cha/_materials/brass> (
+                            bindMaterialAs = "weakerThanDescendants"
+                        )
+                    }
+                }
+            }
+
+            over "_materials" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+
+                over "brass"
+                {
+                    token outputs:mtlx:surface
+                    token outputs:realitykit:vertex
+                }
+            }
+
+            over "env_light" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+            }
+        }
+    }
+
+    def Xform "Group_6" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 0.48252493, 0)
+        }
+    )
+    {
+        float2 ui:nodegraph:node:pos = (40, 40)
+        int ui:nodegraph:node:stackingOrder = 2
+        quatf xformOp:orient = (0.9710371, 0, 0.2389288, 0)
+        float3 xformOp:scale = (0.9999999, 0.9999999, 0.9999999)
+        float3 xformOp:translate = (-1.5614575, 1.8626454e-9, 0.3565413)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "jiazi" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (-4.7123885, -0.18968093, 3.1415925)
+            }
+            references = @jiazi.usdc@
+        )
+        {
+            rel material:binding = </Root/Material_5> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (-0.066961825, 0.06696185, 0.70392907, 0.70392907)
+            float3 xformOp:scale = (0.08288976, 0.08288976, 0.082889736)
+            float3 xformOp:translate = (1.671806, -3.1613896, 2.575184)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "cha" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0.4770237, 0.71943223, 1.88979)
+            }
+            references = @cha.usdc@
+        )
+        {
+            rel material:binding = </Root/Material_3> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (0.60020953, -0.14765659, 0.3795947, 0.6883704)
+            float3 xformOp:scale = (0.13212965, 0.13212965, 0.13212965)
+            float3 xformOp:translate = (1.1300787, 0.30242056, 0.061941393)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "______"
+            {
+                over "mesh178" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = None (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+
+                    over "_______199" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Root/Group_6/cha/_materials/brass> (
+                            bindMaterialAs = "weakerThanDescendants"
+                        )
+                    }
+                }
+            }
+
+            over "_materials" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+
+                over "brass"
+                {
+                    token outputs:mtlx:surface
+                    token outputs:realitykit:vertex
+                }
+            }
+
+            over "env_light" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+            }
+        }
+    }
+
+    def Xform "Group_7" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, 0.48252508, 0)
+        }
+    )
+    {
+        reorder nameChildren = ["jiazi", "cha"]
+        float2 ui:nodegraph:node:pos = (60, 60)
+        int ui:nodegraph:node:stackingOrder = 3
+        quatf xformOp:orient = (0.9710371, 0, 0.23892881, 0)
+        float3 xformOp:scale = (0.8083128, 0.80831265, 0.8083128)
+        float3 xformOp:translate = (-1.6328931, 7.4505815e-9, 1.1289793)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def "jiazi" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (-4.7123885, -0.18968093, 3.1415925)
+            }
+            references = @jiazi.usdc@
+        )
+        {
+            rel material:binding = </Root/Material_5> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (-0.066961825, 0.06696185, 0.70392907, 0.70392907)
+            float3 xformOp:scale = (0.08288976, 0.08288976, 0.082889736)
+            float3 xformOp:translate = (1.671806, -3.1613896, 2.575184)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+        }
+
+        def "cha" (
+            active = true
+            prepend apiSchemas = ["MaterialBindingAPI"]
+            customData = {
+                float3 rotationEulerHint = (0.4770236, 0.71943223, 1.88979)
+            }
+            references = @cha.usdc@
+        )
+        {
+            rel material:binding = </Root/Material_3> (
+                bindMaterialAs = "strongerThanDescendants"
+            )
+            quatf xformOp:orient = (0.60020953, -0.14765666, 0.37959474, 0.68837047)
+            float3 xformOp:scale = (0.11525101, 0.11525102, 0.115251005)
+            float3 xformOp:translate = (1.1238799, 0.30996728, 0.22536154)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            over "______"
+            {
+                over "mesh178" (
+                    prepend apiSchemas = ["MaterialBindingAPI"]
+                )
+                {
+                    rel material:binding = None (
+                        bindMaterialAs = "weakerThanDescendants"
+                    )
+
+                    over "_______199" (
+                        prepend apiSchemas = ["MaterialBindingAPI"]
+                    )
+                    {
+                        rel material:binding = </Root/Group_7/cha/_materials/brass> (
+                            bindMaterialAs = "weakerThanDescendants"
+                        )
+                    }
+                }
+            }
+
+            over "_materials" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+
+                over "brass"
+                {
+                    token outputs:mtlx:surface
+                    token outputs:realitykit:vertex
+                }
+            }
+
+            over "env_light" (
+                prepend apiSchemas = ["MaterialBindingAPI"]
+            )
+            {
+                rel material:binding = None (
+                    bindMaterialAs = "weakerThanDescendants"
+                )
+            }
+        }
+    }
+
+    def Material "Material_3"
+    {
+        token outputs:mtlx:surface
+        token outputs:realitykit:vertex
+        token outputs:surface.connect = </Root/Material_3/UsdPreviewSurface.outputs:surface>
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+
+        def Shader "UsdPreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.59017104, 0.5755073, 0.44439495) (
+                colorSpace = "srgb_displayp3"
+            )
+            color3f inputs:emissiveColor = (0.6043344, 0.5259591, 0.61010444) (
+                colorSpace = "srgb_displayp3"
+            )
+            float inputs:metallic = 0.7
+            float inputs:roughness = 0.5
+            token outputs:surface
+        }
+    }
+
+    def Material "Material_5"
+    {
+        token outputs:mtlx:surface
+        token outputs:realitykit:vertex
+        token outputs:surface.connect = </Root/Material_5/UsdPreviewSurface.outputs:surface>
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+
+        def Shader "UsdPreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.6641264, 0.571863, 0.66373205) (
+                colorSpace = "srgb_displayp3"
+            )
+            float inputs:metallic = 0.7
+            token outputs:surface
+        }
+    }
+
+    def Material "Material"
+    {
+        token cullMode = "unspecified" (
+            allowedTokens = ["unspecified", "none", "front", "back"]
+        )
+        token outputs:mtlx:surface
+        token outputs:realitykit:vertex
+        token outputs:surface.connect = </Root/Material/UsdPreviewSurface.outputs:surface>
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+        float2 ui:nodegraph:realitykit:subgraphOutputs:pos = (0, 110.5)
+
+        def Shader "UsdPreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            float inputs:clearcoatRoughness = 0
+            color3f inputs:diffuseColor = (0.08972584, 0.08777309, 0.08929686) (
+                colorSpace = "srgb_displayp3"
+            )
+            float inputs:metallic = 0.5
+            float inputs:opacityThreshold
+            float inputs:roughness = 0.3
+            token outputs:surface
+        }
+    }
+
+    def Material "MaterialEx06b" (
+        references = @Ex01.usda@</Root/Ex06b/MaterialEx06b>
+    )
+    {
+        token outputs:mtlx:surface.connect = </Root/MaterialEx06b/PreviewSurface.outputs:out>
+        token outputs:realitykit:vertex
+        float2 ui:nodegraph:node:pos = (19.771793, 191.65569)
+        int ui:nodegraph:node:stackingOrder = 2
+        float2 ui:nodegraph:realitykit:subgraphOutputs:pos = (293.76633, 199.47968)
+        float2 ui:nodegraph:realitykit:subgraphOutputs:size = (181.5, 99)
+        int ui:nodegraph:realitykit:subgraphOutputs:stackingOrder = 574
+
+        def Shader "UnlitSurface"
+        {
+            uniform token info:id = "ND_realitykit_unlit_surfaceshader"
+            bool inputs:applyPostProcessToneMap = 1
+            color3f inputs:color.connect = </Root/MaterialEx06b/Mix.outputs:out>
+            bool inputs:hasPremultipliedAlpha
+            float inputs:opacity.connect = None
+            float inputs:opacityThreshold
+            token outputs:out
+            float2 ui:nodegraph:node:pos = (43.032238, 208.53345)
+            float2 ui:nodegraph:node:size = (194.5, 181)
+            int ui:nodegraph:node:stackingOrder = 720
+        }
+
+        def Shader "Normal"
+        {
+            uniform token info:id = "ND_normal_vector3"
+            float3 outputs:out
+            float2 ui:nodegraph:node:pos = (-905.84955, 173.50949)
+            float2 ui:nodegraph:node:size = (128.5, 40)
+            int ui:nodegraph:node:stackingOrder = 719
+        }
+
+        def Shader "DotProduct"
+        {
+            uniform token info:id = "ND_dotproduct_vector3"
+            float3 inputs:in1.connect = </Root/MaterialEx06b/ViewDirection.outputs:out>
+            float3 inputs:in2.connect = </Root/MaterialEx06b/Normal.outputs:out>
+            float outputs:out
+            float2 ui:nodegraph:node:pos = (-718.1693, 130.29608)
+            float2 ui:nodegraph:node:size = (153.5, 53)
+            int ui:nodegraph:node:stackingOrder = 719
+        }
+
+        def Shader "ViewDirection"
+        {
+            uniform token info:id = "ND_realitykit_viewdirection_vector3"
+            float3 outputs:out
+            float2 ui:nodegraph:node:pos = (-948.5562, 89.2113)
+            float2 ui:nodegraph:node:size = (210, 53)
+            int ui:nodegraph:node:stackingOrder = 719
+        }
+
+        def Shader "Oneminus"
+        {
+            uniform token info:id = "ND_realitykit_oneminus_float"
+            float inputs:in.connect = </Root/MaterialEx06b/DotProduct.outputs:out>
+            float outputs:out
+            float2 ui:nodegraph:node:pos = (-524.17914, 117.69922)
+            float2 ui:nodegraph:node:size = (158, 109)
+            int ui:nodegraph:node:stackingOrder = 719
+        }
+
+        def Shader "Power"
+        {
+            uniform token info:id = "ND_power_float"
+            float inputs:in1.connect = </Root/MaterialEx06b/Oneminus.outputs:out>
+            float inputs:in2 = 3
+            float outputs:out
+            float2 ui:nodegraph:node:pos = (-337.77948, 161.64749)
+            float2 ui:nodegraph:node:size = (123.5, 40)
+            int ui:nodegraph:node:stackingOrder = 719
+        }
+
+        def Shader "Mix"
+        {
+            uniform token info:id = "ND_mix_color3"
+            color3f inputs:bg.connect = </Root/MaterialEx06b/Surface_Color.outputs:out>
+            color3f inputs:fg.connect = </Root/MaterialEx06b/Inner_Color.outputs:out>
+            float inputs:mix.connect = </Root/MaterialEx06b/Power.outputs:out>
+            color3f outputs:out
+            float2 ui:nodegraph:node:pos = (-152.19917, 131.80101)
+            float2 ui:nodegraph:node:size = (109, 145)
+            int ui:nodegraph:node:stackingOrder = 719
+            string[] ui:nodegraph:realitykit:node:attributesShowingChildren = ["inputs:fg"]
+        }
+
+        def Shader "Surface_Color"
+        {
+            uniform token info:id = "ND_constant_color3"
+            color3f inputs:value = (0.20437151, 0.19719107, 0.58413106) (
+                colorSpace = "srgb_displayp3"
+            )
+            color3f outputs:out
+            float2 ui:nodegraph:node:pos = (-534.7942, -72.76912)
+            float2 ui:nodegraph:node:size = (175, 53)
+            int ui:nodegraph:node:stackingOrder = 751
+        }
+
+        def Shader "Inner_Color"
+        {
+            uniform token info:id = "ND_constant_color3"
+            color3f inputs:value = (0.6834386, 0.33207604, 0.6797107) (
+                colorSpace = "srgb_displayp3"
+            )
+            color3f outputs:out
+            float2 ui:nodegraph:node:pos = (-530.7152, 2.6759517)
+            float2 ui:nodegraph:node:size = (158, 53)
+            int ui:nodegraph:node:stackingOrder = 754
+        }
+
+        def Shader "PreviewSurface"
+        {
+            uniform token info:id = "ND_UsdPreviewSurface_surfaceshader"
+            color3f inputs:diffuseColor.connect = </Root/MaterialEx06b/Mix.outputs:out>
+            float inputs:metallic = 0.35
+            float3 inputs:normal
+            float inputs:opacity
+            float inputs:roughness = 0.35
+            token outputs:out
+            float2 ui:nodegraph:node:pos = (59.492287, -0.68174845)
+            int ui:nodegraph:node:stackingOrder = 763
+        }
+    }
+
+    def Material "Material_1"
+    {
+        token outputs:mtlx:surface
+        token outputs:realitykit:vertex
+        token outputs:surface.connect = </Root/Material_1/UsdPreviewSurface.outputs:surface>
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+
+        def Shader "UsdPreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.754764, 0.78604496, 0.90868235) (
+                colorSpace = "srgb_displayp3"
+            )
+            color3f inputs:emissiveColor = (0.7677594, 0.7713103, 0.96120864) (
+                colorSpace = "srgb_displayp3"
+            )
+            token outputs:surface
+        }
+    }
+
+    def Material "Material_2"
+    {
+        token outputs:mtlx:surface
+        token outputs:realitykit:vertex
+        token outputs:surface.connect = </Root/Material_2/UsdPreviewSurface.outputs:surface>
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+        float2 ui:nodegraph:realitykit:subgraphOutputs:pos = (0, 110.5)
+
+        def Shader "UsdPreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.28721407, 0.021894908, 0) (
+                colorSpace = "srgb_displayp3"
+            )
+            float inputs:metallic = 0.4
+            float inputs:roughness = 0.7
+            token outputs:surface
+        }
+    }
+
+    def Material "Material_4"
+    {
+        token outputs:mtlx:surface
+        token outputs:realitykit:vertex
+        token outputs:surface.connect = </Root/Material_4/UsdPreviewSurface.outputs:surface>
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+
+        def Shader "UsdPreviewSurface"
+        {
+            uniform token info:id = "UsdPreviewSurface"
+            color3f inputs:diffuseColor = (0.95239556, 0.5605392, 0.9355116) (
+                colorSpace = "srgb_displayp3"
+            )
+            color3f inputs:emissiveColor = (0.8515243, 0.5742431, 0.82969844) (
+                colorSpace = "srgb_displayp3"
+            )
+            token outputs:surface
+        }
+    }
+}
+

@@ -1,0 +1,802 @@
+{
+  "021A110C-0B05-4BDF-B183-9E7F64FC8B72" : {
+    "objectMetadataList" : [
+      [
+        "021A110C-0B05-4BDF-B183-9E7F64FC8B72",
+        "Root",
+        "LeftGlove"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "021A110C-0B05-4BDF-B183-9E7F64FC8B72",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "0A9B4653-B11E-4D6A-850E-C6FCB621626C" : {
+    "objectMetadataList" : [
+      [
+        "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "2173847A-CE7F-4A1C-87CB-F9F4328A7602" : {
+    "objectMetadataList" : [
+      [
+        "2173847A-CE7F-4A1C-87CB-F9F4328A7602",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "3CFE3004-2BA8-4A88-9806-63CCB6BF4026" : {
+    "objectMetadataList" : [
+      [
+        "3CFE3004-2BA8-4A88-9806-63CCB6BF4026",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "424B522F-C9A5-4670-BA77-A2B444BA5E73" : {
+    "objectMetadataList" : [
+      [
+        "424B522F-C9A5-4670-BA77-A2B444BA5E73",
+        "Root",
+        "CirclePunch"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "424B522F-C9A5-4670-BA77-A2B444BA5E73",
+        "Root",
+        "CirclePunch",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "424B522F-C9A5-4670-BA77-A2B444BA5E73",
+        "Root",
+        "CirclePunch",
+        "Track2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "424B522F-C9A5-4670-BA77-A2B444BA5E73",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "65F6F990-A780-4474-B78B-572E0E4E273D" : {
+    "objectMetadataList" : [
+      [
+        "65F6F990-A780-4474-B78B-572E0E4E273D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "66168B71-AB05-424E-8B6C-D33D6E61B08F" : {
+    "objectMetadataList" : [
+      [
+        "66168B71-AB05-424E-8B6C-D33D6E61B08F",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "6ACC1CA7-07B5-428F-A6FF-BA3E0A36C402" : {
+    "objectMetadataList" : [
+      [
+        "6ACC1CA7-07B5-428F-A6FF-BA3E0A36C402",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "79581B3D-9957-4BD4-93A2-287082F6913E" : {
+    "objectMetadataList" : [
+      [
+        "79581B3D-9957-4BD4-93A2-287082F6913E",
+        "Root",
+        "Scene"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "79581B3D-9957-4BD4-93A2-287082F6913E",
+        "Root",
+        "Timeline"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "79581B3D-9957-4BD4-93A2-287082F6913E",
+        "Root",
+        "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "79581B3D-9957-4BD4-93A2-287082F6913E",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "79581B3D-9957-4BD4-93A2-287082F6913E",
+        "Root",
+        "Cube"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "7D9B9220-DB98-4BC3-AACA-73EB182E3BE8" : {
+    "objectMetadataList" : [
+      [
+        "7D9B9220-DB98-4BC3-AACA-73EB182E3BE8",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7D9B9220-DB98-4BC3-AACA-73EB182E3BE8",
+        "Root",
+        "bofang_2",
+        "TEXIAO4_TEXIAO2_TEXIAO2_003",
+        "TEXIAO4_TEXIAO2_TEXIAO2_029"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "7D9B9220-DB98-4BC3-AACA-73EB182E3BE8",
+        "Root",
+        "bofang_2",
+        "TEXIAO4_TEXIAO2_TEXIAO2_003"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "9C6AA81C-9651-425E-8022-9DBA49F8A17A" : {
+    "objectMetadataList" : [
+      [
+        "9C6AA81C-9651-425E-8022-9DBA49F8A17A",
+        "Drum",
+        "BaseDrum"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "9C6AA81C-9651-425E-8022-9DBA49F8A17A",
+        "Drum",
+        "BaseDrum",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "9C6AA81C-9651-425E-8022-9DBA49F8A17A",
+        "Drum",
+        "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "9C6AA81C-9651-425E-8022-9DBA49F8A17A",
+        "Drum",
+        "Sphere"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "9C6AA81C-9651-425E-8022-9DBA49F8A17A",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "9C6AA81C-9651-425E-8022-9DBA49F8A17A",
+        "Drum"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "9C6AA81C-9651-425E-8022-9DBA49F8A17A",
+        "Drum",
+        "HighDrumAudio"
+      ],
+      {
+        "isExpanded" : false,
+        "isLocked" : false
+      }
+    ]
+  },
+  "AF09ED6F-1707-48FD-8720-65B998362C09" : {
+    "objectMetadataList" : [
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "Sphere_Left"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root",
+        "Sphere_Right"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "AF09ED6F-1707-48FD-8720-65B998362C09",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "B988857B-C329-4A85-AD23-B3AE8CAA1F24" : {
+    "objectMetadataList" : [
+      [
+        "B988857B-C329-4A85-AD23-B3AE8CAA1F24",
+        "Root",
+        "Box"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "B988857B-C329-4A85-AD23-B3AE8CAA1F24",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "BE0CB09E-FFAF-4589-B22B-F81D80495366" : {
+    "objectMetadataList" : [
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "zhanshi",
+        "Root_3",
+        "Material_4"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "CirclePunch",
+        "Track2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "Tom1Animation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "NewDrum2",
+        "Group_5",
+        "cha"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "HeartAnimation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "Tom2Animation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "Heart2Animation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "HeartAnimation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "Heart2Animation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "RideCymbal",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "NewDrum",
+        "Drum"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "NewDrum2",
+        "Group_6"
+      ],
+      {
+        "disallowsFraming" : false,
+        "isExpanded" : false,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "CrashCymbal1Animation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "RideCymbalAnimation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "NewDrum2",
+        "Group_6",
+        "cha"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "LightShow",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "CirclePunch",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "NewDrum2",
+        "Group_7",
+        "cha"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "Tom2Animation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "zhanshi",
+        "Root_9",
+        "DrumStick_1"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "bofang2",
+        "TEXIAO4_TEXIAO2_TEXIAO2_001"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "Tom1Animation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "CrashCymbal2Animation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "LightShow"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "FloorTomAnimation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "FloorTomAnimation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "CrashCymbal1Animation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "SnareAnimation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "RideCymbalAnimation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "Heart1Animation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "Root1Animation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "Heart1Animation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "CrashCymbal2Animation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "SnareAnimation"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+        "Root",
+        "RootAnimation",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "CB766F92-EE55-4A63-9401-E7B8C009764D" : {
+    "objectMetadataList" : [
+      [
+        "CB766F92-EE55-4A63-9401-E7B8C009764D",
+        "Root",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "CB766F92-EE55-4A63-9401-E7B8C009764D",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "D560BB77-AAF3-4BDE-B7C4-989332A4688B" : {
+    "objectMetadataList" : [
+
+    ]
+  },
+  "D66134B1-3681-4A8E-AFE5-29F257229F3B" : {
+    "objectMetadataList" : [
+      [
+        "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "D66134B1-3681-4A8E-AFE5-29F257229F3B",
+        "Root",
+        "GridMaterial",
+        "GridMaterial"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "F089562F-D092-42F2-9513-57653D4CEEB7" : {
+    "objectMetadataList" : [
+      [
+        "F089562F-D092-42F2-9513-57653D4CEEB7",
+        "Root",
+        "StickSphere"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "F089562F-D092-42F2-9513-57653D4CEEB7",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "F396B5BC-F12D-49D4-92E8-12C243E9E949" : {
+    "objectMetadataList" : [
+      [
+        "F396B5BC-F12D-49D4-92E8-12C243E9E949",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "F396B5BC-F12D-49D4-92E8-12C243E9E949",
+        "Root",
+        "IP2"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "F396B5BC-F12D-49D4-92E8-12C243E9E949",
+        "Root",
+        "Timeline"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      },
+      [
+        "F396B5BC-F12D-49D4-92E8-12C243E9E949",
+        "Root",
+        "Timeline",
+        "Track"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  }
+}

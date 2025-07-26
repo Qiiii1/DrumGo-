@@ -1,0 +1,1555 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (448.100.13)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["zhanshi", "Tom2Animation", "FloorTomAnimation", "Tom1Animation", "SnareAnimation", "CrashCymbal1Animation", "RideCymbalAnimation", "CrashCymbal2Animation", "Cube", "HeartScene", "HeartAnimation", "SpotLight", "LightShow", "HeartScene1", "HeartScene2", "Heart1Animation", "Heart2Animation"]
+    float3 xformOp:scale = (0.8, 0.8, 0.8)
+    float3 xformOp:translate = (0, 0.46543956, -0.6419785)
+    uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+    def RealityKitTimeline "Tom2Animation"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Transform_To"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "1E90D3BE-C271-4E84-89A0-D7B3B001F169"
+                float3 position = (2.2124095, 0.069188066, 1.4694557)
+                quatf rotation = (0.699921, 0.10055252, -0.6999207, -0.10055244)
+                float3 scale = (0.99999964, 0.95, 0.99999964)
+                double startTime = 0
+                rel target = </Root/NewDrum2/Group_2>
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                    token type = "easeInOut"
+                }
+            }
+
+            def RealityKitAction "Transform_To2"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "471A0EB9-60E2-48C7-9DE4-CAEB2B0D871A"
+                float3 position = (2.2176695, 0.09127063, 1.4694557)
+                quatf rotation = (0.699921, 0.10055252, -0.6999207, -0.10055244)
+                float3 scale = (0.99999964, 0.99999946, 0.99999964)
+                double startTime = 0.1500000001
+                rel target = </Root/NewDrum2/Group_2>
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                }
+            }
+        }
+    }
+
+    def RealityKitTimeline "FloorTomAnimation"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Transform_To"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "1E90D3BE-C271-4E84-89A0-D7B3B001F169"
+                float3 position = (2.9831142, -0.16206981, 1.83314)
+                quatf rotation = (0.699921, 0.10055247, -0.6999207, -0.100552425)
+                float3 scale = (1.3, 1.4, 1.3)
+                double startTime = 0
+                rel target = </Root/NewDrum2/Group_3>
+                float2 ui:nodegraph:node:pos = (-418.78525, -57.976883)
+                int ui:nodegraph:node:stackingOrder = 1
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                    token type = "easeInOut"
+                }
+            }
+
+            def RealityKitAction "Transform_To2"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "471A0EB9-60E2-48C7-9DE4-CAEB2B0D871A"
+                float3 position = (3.0041378, -0.13394393, 1.8761741)
+                quatf rotation = (0.699921, 0.10055247, -0.6999207, -0.100552425)
+                float3 scale = (1.3, 1.4999995, 1.3)
+                double startTime = 0.1500000001
+                rel target = </Root/NewDrum2/Group_3>
+                float2 ui:nodegraph:node:pos = (-418.78525, -57.976883)
+                int ui:nodegraph:node:stackingOrder = 1
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                }
+            }
+        }
+    }
+
+    def RealityKitTimeline "Tom1Animation"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Transform_To"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "1E90D3BE-C271-4E84-89A0-D7B3B001F169"
+                float3 position = (1.8395756, 0.0710097, 1.4694611)
+                quatf rotation = (0.699921, 0.10055249, -0.6999207, -0.100552425)
+                float3 scale = (0.99999964, 0.95, 0.99999964)
+                double startTime = 0
+                rel target = </Root/NewDrum2/Group_1>
+                float2 ui:nodegraph:node:pos = (-398.78525, -37.976883)
+                int ui:nodegraph:node:stackingOrder = 2
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                    token type = "easeInOut"
+                }
+            }
+
+            def RealityKitAction "Transform_To2"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "471A0EB9-60E2-48C7-9DE4-CAEB2B0D871A"
+                float3 position = (1.8403236, 0.09127063, 1.4694611)
+                quatf rotation = (0.699921, 0.10055249, -0.6999207, -0.100552425)
+                float3 scale = (0.99999964, 0.9999995, 0.99999964)
+                double startTime = 0.1500000001
+                rel target = </Root/NewDrum2/Group_1>
+                float2 ui:nodegraph:node:pos = (-398.78525, -37.976883)
+                int ui:nodegraph:node:stackingOrder = 2
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                }
+            }
+        }
+    }
+
+    def RealityKitTimeline "SnareAnimation"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Transform_To"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "1E90D3BE-C271-4E84-89A0-D7B3B001F169"
+                float3 position = (1.6377593, -0.0870064, 1.7733145)
+                quatf rotation = (0.6999208, 0.10055254, -0.699921, -0.10055254)
+                float3 scale = (1.1500001, 1.1, 1.1500001)
+                double startTime = 0
+                rel target = </Root/NewDrum2/Group>
+                float2 ui:nodegraph:node:pos = (-378.78525, -17.976883)
+                int ui:nodegraph:node:stackingOrder = 3
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                    token type = "easeInOut"
+                }
+            }
+
+            def RealityKitAction "Transform_To2"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "471A0EB9-60E2-48C7-9DE4-CAEB2B0D871A"
+                float3 position = (1.6377594, -0.06050375, 1.7733145)
+                quatf rotation = (0.6999208, 0.10055254, -0.699921, -0.10055254)
+                float3 scale = (1.1500001, 1.1500002, 1.1500001)
+                double startTime = 0.1500000001
+                rel target = </Root/NewDrum2/Group>
+                float2 ui:nodegraph:node:pos = (-378.78525, -17.976883)
+                int ui:nodegraph:node:stackingOrder = 3
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                }
+            }
+        }
+    }
+
+    def RealityKitTimeline "CrashCymbal1Animation"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Transform_To"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "1E90D3BE-C271-4E84-89A0-D7B3B001F169"
+                float3 position = (1.1238703, 0.27132055, 0.22535726)
+                quatf rotation = (0.6002095, -0.14765671, 0.37959477, 0.6883706)
+                float3 scale = (0.11525102, 0.115251034, 0.11525102)
+                double startTime = 0
+                rel target = </Root/NewDrum2/Group_7/cha1>
+                float2 ui:nodegraph:node:pos = (-358.78525, 2.023117)
+                int ui:nodegraph:node:stackingOrder = 4
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                    token type = "easeInOut"
+                }
+            }
+
+            def RealityKitAction "Transform_To2"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "471A0EB9-60E2-48C7-9DE4-CAEB2B0D871A"
+                float3 position = (1.1238799, 0.30996728, 0.22536154)
+                quatf rotation = (0.6002095, -0.14765671, 0.37959477, 0.6883706)
+                float3 scale = (0.11525102, 0.115251034, 0.11525102)
+                double startTime = 0.1500000001
+                rel target = </Root/NewDrum2/Group_7/cha1>
+                float2 ui:nodegraph:node:pos = (-358.78525, 2.023117)
+                int ui:nodegraph:node:stackingOrder = 4
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                }
+            }
+        }
+    }
+
+    def RealityKitTimeline "RideCymbalAnimation"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Transform_To"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "1E90D3BE-C271-4E84-89A0-D7B3B001F169"
+                float3 position = (1.1300787, 0.28242, 0.061941393)
+                quatf rotation = (0.60020953, -0.1476566, 0.37959474, 0.6883705)
+                float3 scale = (0.13212965, 0.13212965, 0.13212965)
+                double startTime = 0
+                rel target = </Root/NewDrum2/Group_5/cha3>
+                float2 ui:nodegraph:node:pos = (-338.78525, 22.023117)
+                int ui:nodegraph:node:stackingOrder = 5
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                    token type = "easeInOut"
+                }
+            }
+
+            def RealityKitAction "Transform_To2"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "471A0EB9-60E2-48C7-9DE4-CAEB2B0D871A"
+                float3 position = (1.1300787, 0.30242056, 0.061941393)
+                quatf rotation = (0.60020953, -0.1476566, 0.37959474, 0.6883705)
+                float3 scale = (0.13212965, 0.13212965, 0.13212965)
+                double startTime = 0.1500000001
+                rel target = </Root/NewDrum2/Group_5/cha3>
+                float2 ui:nodegraph:node:pos = (-338.78525, 22.023117)
+                int ui:nodegraph:node:stackingOrder = 5
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                }
+            }
+        }
+    }
+
+    def RealityKitTimeline "CrashCymbal2Animation"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Transform_To"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "1E90D3BE-C271-4E84-89A0-D7B3B001F169"
+                float3 position = (1.1300787, 0.28242, 0.061941393)
+                quatf rotation = (0.60020953, -0.1476566, 0.37959474, 0.6883705)
+                float3 scale = (0.13212965, 0.13212965, 0.13212965)
+                double startTime = 0
+                rel target = </Root/NewDrum2/Group_6/cha2>
+                float2 ui:nodegraph:node:pos = (-338.78525, 22.023117)
+                int ui:nodegraph:node:stackingOrder = 5
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                    token type = "easeInOut"
+                }
+            }
+
+            def RealityKitAction "Transform_To2"
+            {
+                string actionKind = "moveTo"
+                int blendLayer = 300
+                double duration = 0.15
+                uniform token info:id = "471A0EB9-60E2-48C7-9DE4-CAEB2B0D871A"
+                float3 position = (1.1300787, 0.30242056, 0.061941393)
+                quatf rotation = (0.60020953, -0.1476566, 0.37959474, 0.6883705)
+                float3 scale = (0.13212965, 0.13212965, 0.13212965)
+                double startTime = 0.1500000001
+                rel target = </Root/NewDrum2/Group_6/cha2>
+                float2 ui:nodegraph:node:pos = (-338.78525, 22.023117)
+                int ui:nodegraph:node:stackingOrder = 5
+
+                def RealityKitStruct "transformMode"
+                {
+                    rel referenceEntity = </Root>
+                    token type = "parent"
+                }
+
+                def RealityKitStruct "timingFunction"
+                {
+                }
+            }
+        }
+    }
+
+    def Cube "Cube" (
+        active = false
+        prepend apiSchemas = ["MaterialBindingAPI"]
+    )
+    {
+        rel material:binding = </Root/Cube/DefaultMaterial>
+        double size = 0.2
+        quatf xformOp:orient = (0.99999994, 0, 0, 0)
+        float3 xformOp:scale = (125, 0.20833333, 83.33333)
+        float3 xformOp:translate = (0, -0.58179945, -1.7381678)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Material "DefaultMaterial"
+        {
+            token outputs:mtlx:surface
+            token outputs:realitykit:vertex
+            prepend token outputs:surface.connect = </Root/Cube/DefaultMaterial/DefaultSurfaceShader.outputs:surface>
+
+            def Shader "DefaultSurfaceShader"
+            {
+                uniform token info:id = "UsdPreviewSurface"
+                float inputs:clearcoatRoughness = 0.1
+                color3f inputs:diffuseColor = (0, 0, 0) (
+                    colorSpace = "srgb_displayp3"
+                )
+                color3f inputs:emissiveColor = (0, 0, 0) (
+                    colorSpace = "srgb_displayp3"
+                )
+                float inputs:ior = 1.1
+                float inputs:roughness = 1
+                token outputs:surface
+            }
+        }
+    }
+
+    def "HeartScene" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0.5254083, 0, 0)
+        }
+        references = @HeartScene.usda@
+    )
+    {
+        quatf xformOp:orient = (0.96569127, 0.25969288, 0, 0)
+        float3 xformOp:scale = (0.625, 0.625, 0.62500006)
+        float3 xformOp:translate = (0, 1.0360849, -3.2813504)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "AnimationLibrary"
+        {
+            token info:id = "RealityKit.AnimationLibrary"
+
+            def RealityKitAnimationFile "default_subtree_animation"
+            {
+                uniform bool looping = 1
+                uniform string name = "default subtree animation"
+            }
+        }
+    }
+
+    def RealityKitTimeline "HeartAnimation"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Animation"
+            {
+                string actionKind = "animation"
+                string animation = "default subtree animation"
+                int blendLayer = 500
+                double duration = 0.625
+                uniform token info:id = "6109804D-2428-4844-B0A6-704DF80B6CBF"
+                bool separateAnimatedValue = 1
+                double startTime = 0
+                rel target = </Root/HeartScene>
+
+                def RealityKitStruct "handoffType"
+                {
+                }
+            }
+        }
+    }
+
+    def Xform "SpotLight" (
+        customData = {
+            float3 rotationEulerHint = (4.262391, 0, 0)
+        }
+    )
+    {
+        quatf xformOp:orient = (0.5315246, -0.84704274, 0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (0.42509696, 2.8606122, -5.945433)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "SpotLight"
+        {
+            float3 color = (0.9113256, 0.9354429, 0.53158164)
+            token info:id = "RealityKit.SpotLight"
+            float innerAngle = 55
+            float intensity = 916741
+            float outerAngle = 90
+
+            def RealityKitStruct "Shadow"
+            {
+                bool isEnabled = 1
+            }
+        }
+
+        def RealityKitComponent "HierarchicalFade"
+        {
+            uniform token info:id = "RealityKit.HierarchicalFade"
+            float opacity = 0
+        }
+    }
+
+    def RealityKitTimeline "LightShow"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Show"
+            {
+                string actionKind = "show"
+                int blendLayer = 300
+                double duration = 0.2
+                uniform token info:id = "9E38F267-7944-481B-87E0-13846BFE5E1B"
+                double startTime = 0
+                rel target = </Root/SpotLight>
+
+                def RealityKitStruct "timingFunction"
+                {
+                    token type = "easeInOut"
+                }
+            }
+
+            def RealityKitAction "Hide"
+            {
+                string actionKind = "hide"
+                int blendLayer = 300
+                double duration = 0.2
+                uniform token info:id = "7CA18018-8F4C-4181-B217-90F147BCC360"
+                double startTime = 0.2000000001
+                rel target = </Root/SpotLight>
+
+                def RealityKitStruct "timingFunction"
+                {
+                    token type = "easeInOut"
+                }
+            }
+        }
+    }
+
+    def "HeartScene1" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (0, -0.51737094, 0)
+        }
+        references = @HeartScene.usda@
+    )
+    {
+        float2 ui:nodegraph:node:pos = (-418.78525, -57.976883)
+        int ui:nodegraph:node:stackingOrder = 1
+        quatf xformOp:orient = (0.9667271, 0, -0.25581, 0)
+        float3 xformOp:scale = (0.12500001, 0.12500001, 0.12500001)
+        float3 xformOp:translate = (2.7482634, 0.00001615286, -2.2455928)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "AnimationLibrary"
+        {
+            token info:id = "RealityKit.AnimationLibrary"
+
+            def RealityKitAnimationFile "default_subtree_animation"
+            {
+                uniform bool looping = 1
+                uniform string name = "default subtree animation"
+            }
+        }
+    }
+
+    def "HeartScene2" (
+        active = true
+        customData = {
+            float3 rotationEulerHint = (-0.09548671, 1.0739696, -0.22656137)
+        }
+        references = @HeartScene.usda@
+    )
+    {
+        float2 ui:nodegraph:node:pos = (-398.78525, -37.976883)
+        int ui:nodegraph:node:stackingOrder = 2
+        quatf xformOp:orient = (0.8555345, 0.017013416, 0.51232517, -0.07276102)
+        float3 xformOp:scale = (0.25000003, 0.25000006, 0.25000006)
+        float3 xformOp:translate = (-2.3544068, 0.9806888, -1.2634873)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "AnimationLibrary"
+        {
+            token info:id = "RealityKit.AnimationLibrary"
+
+            def RealityKitAnimationFile "default_subtree_animation"
+            {
+                uniform bool looping = 1
+                uniform string name = "default subtree animation"
+            }
+        }
+    }
+
+    def RealityKitTimeline "Heart1Animation"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Animation"
+            {
+                string actionKind = "animation"
+                string animation = "default subtree animation"
+                int blendLayer = 500
+                double duration = 0.625
+                uniform token info:id = "EDBD515C-2FD3-4D9C-B8F1-AACA716DA6DD"
+                bool separateAnimatedValue = 1
+                double startTime = 0
+                rel target = </Root/HeartScene1>
+
+                def RealityKitStruct "handoffType"
+                {
+                }
+            }
+        }
+    }
+
+    def RealityKitTimeline "Heart2Animation"
+    {
+        def RealityKitTrack "Track"
+        {
+            def RealityKitAction "Animation"
+            {
+                string actionKind = "animation"
+                string animation = "default subtree animation"
+                int blendLayer = 500
+                double duration = 0.625
+                uniform token info:id = "4F3B0494-96F7-44AE-B4B9-665184E949D4"
+                bool separateAnimatedValue = 1
+                double startTime = 0
+                rel target = </Root/HeartScene2>
+
+                def RealityKitStruct "handoffType"
+                {
+                }
+            }
+        }
+    }
+
+    def "NewDrum2" (
+        active = true
+        references = @NewDrum2(1).usdz@
+    )
+    {
+        reorder nameChildren = ["Tom2", "Group", "Group_1", "Group_2", "Group_3", "Group_4", "Group_5", "Group_6", "Group_7", "Material_3", "Material_5", "Material", "MaterialEx06b", "Material_1", "Material_2", "Material_4", "RCP_BehaviorsContainer", "OnNotification", "OnNotification2", "OnNotification3", "OnNotification4", "OnNotification5", "OnNotification6", "OnNotification7", "OnNotification8", "OnNotification9", "OnNotification10", "OnNotification11"]
+        float3 xformOp:scale = (1.2, 1.2, 1.2)
+        float3 xformOp:translate = (-0.62941325, 0.03812981, -2.1545947)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        over "Group_7"
+        {
+            reorder nameChildren = ["CrashCymbal1", "jiazi1", "cha1"]
+            float3 xformOp:translate = (-1.6309263, -0.08346213, 1.0728856)
+
+            over "cha"
+            {
+                reorder nameChildren = ["CrashCymbal2", "______", "_materials", "env_light", "InputTarget", "Collider"]
+                def RealityKitComponent "InputTarget"
+                {
+                    uniform token info:id = "RealityKit.InputTarget"
+                }
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (3.645424, 4.4762564, 2.9495964)
+                        float height = 4.4762564
+                        float radius = 1.822712
+                        token shapeType = "Capsule"
+
+                        def RealityKitStruct "pose"
+                        {
+                            float3 position = (-4.8974185, 3.9030614, 7.571068)
+                        }
+                    }
+                }
+            }
+
+            over "cha1"
+            {
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (3.645424, 4.4762564, 2.9495964)
+                        float height = 4.4762564
+                        float radius = 1.822712
+                        token shapeType = "Capsule"
+
+                        def RealityKitStruct "pose"
+                        {
+                            float3 position = (-4.8974185, 3.9030614, 7.571068)
+                        }
+                    }
+                }
+
+                def RealityKitComponent "InputTarget"
+                {
+                    uniform token info:id = "RealityKit.InputTarget"
+                }
+            }
+
+            def Xform "CrashCymbal1" (
+                customData = {
+                    float3 rotationEulerHint = (3.8365402, 0.19454873, 3.079135)
+                }
+            )
+            {
+                float2 ui:nodegraph:node:pos = (80, 80)
+                int ui:nodegraph:node:stackingOrder = 4
+                quatf xformOp:orient = (0.255616, 0.1984044, 0.94209534, -0.08804834)
+                float3 xformOp:scale = (1.9823664, 1.982365, 1.9823655)
+                float3 xformOp:translate = (1.598287, 0.82930607, 1.3033214)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "SpatialAudio"
+                {
+                    uniform token info:id = "RealityKit.SpatialAudio"
+                }
+            }
+        }
+
+        over "Group_6"
+        {
+            reorder nameChildren = ["CrashCymbal2", "CrashCymbal1", "jiazi2", "cha2"]
+            float3 xformOp:translate = (-1.5143718, 0.008493067, 0.66839963)
+
+            over "cha"
+            {
+                reorder nameChildren = ["CrashCymbal1", "______", "_materials", "env_light", "InputTarget", "Collider"]
+                def RealityKitComponent "InputTarget"
+                {
+                    uniform token info:id = "RealityKit.InputTarget"
+                }
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (3.645424, 4.4762564, 2.9495964)
+                        float height = 4.4762564
+                        float radius = 1.822712
+                        token shapeType = "Capsule"
+
+                        def RealityKitStruct "pose"
+                        {
+                            float3 position = (-4.8974185, 3.9030614, 7.571068)
+                        }
+                    }
+                }
+            }
+
+            over "cha2"
+            {
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (3.645424, 4.4762564, 2.9495964)
+                        float height = 4.4762564
+                        float radius = 1.822712
+                        token shapeType = "Capsule"
+
+                        def RealityKitStruct "pose"
+                        {
+                            float3 position = (-4.8974185, 3.9030614, 7.571068)
+                        }
+                    }
+                }
+
+                def RealityKitComponent "InputTarget"
+                {
+                    uniform token info:id = "RealityKit.InputTarget"
+                }
+            }
+
+            def Xform "CrashCymbal2" (
+                customData = {
+                    float3 rotationEulerHint = (3.680461, -0.6212362, 2.725301)
+                }
+            )
+            {
+                float2 ui:nodegraph:node:pos = (100, 100)
+                int ui:nodegraph:node:stackingOrder = 5
+                quatf xformOp:orient = (-0.11219802, 0.15157017, 0.96968794, -0.15538117)
+                float3 xformOp:scale = (1.602372, 1.6023704, 1.602371)
+                float3 xformOp:translate = (0.59382176, 0.37476963, 1.4409249)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "SpatialAudio"
+                {
+                    uniform token info:id = "RealityKit.SpatialAudio"
+                }
+            }
+        }
+
+        over "Group"
+        {
+            reorder nameChildren = ["Snare", "drum_2", "drum4_1", "drum4_2", "Collider", "InputTarget"]
+            float3 xformOp:translate = (1.6377594, -0.06050375, 1.7733145)
+
+            def RealityKitComponent "Collider"
+            {
+                uint group = 1
+                uniform token info:id = "RealityKit.Collider"
+                uint mask = 4294967295
+                token type = "Default"
+
+                def RealityKitStruct "Shape"
+                {
+                    float3 extent = (0.35207, 0.06809276, 0.34820175)
+                    float height = 0.06809276
+                    float radius = 0.20103434
+                    token shapeType = "Box"
+
+                    def RealityKitStruct "pose"
+                    {
+                        float3 position = (0.05777681, 0.19515145, 1.4708079)
+                    }
+                }
+            }
+
+            def RealityKitComponent "InputTarget"
+            {
+                uniform token info:id = "RealityKit.InputTarget"
+            }
+
+            def Xform "Snare" (
+                customData = {
+                    float3 rotationEulerHint = (3.8365402, 0.19454873, 3.079135)
+                }
+            )
+            {
+                float2 ui:nodegraph:node:pos = (40, 40)
+                int ui:nodegraph:node:stackingOrder = 2
+                quatf xformOp:orient = (0.63623905, 0.07335269, -0.7031159, 0.30894536)
+                float3 xformOp:scale = (1.393366, 1.3933654, 1.393366)
+                float3 xformOp:translate = (0.07070864, 0.2259414, 1.4675522)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "SpatialAudio"
+                {
+                    uniform token info:id = "RealityKit.SpatialAudio"
+                }
+            }
+
+            def RealityKitComponent "RigidBody"
+            {
+                uniform token info:id = "RealityKit.RigidBody"
+                token motionType = "Static"
+
+                def RealityKitStruct "massFrame"
+                {
+                    def RealityKitStruct "m_pose"
+                    {
+                    }
+                }
+
+                def RealityKitStruct "material"
+                {
+                }
+            }
+        }
+
+        over "Group_1"
+        {
+            reorder nameChildren = ["Tom1", "drum_2", "drum4_1", "drum4_2", "InputTarget", "Collider"]
+            float3 xformOp:translate = (1.8383921, 0.09127063, 1.4694611)
+
+            def RealityKitComponent "InputTarget"
+            {
+                uniform token info:id = "RealityKit.InputTarget"
+            }
+
+            def RealityKitComponent "Collider"
+            {
+                uint group = 1
+                uniform token info:id = "RealityKit.Collider"
+                uint mask = 4294967295
+                token type = "Default"
+
+                def RealityKitStruct "Shape"
+                {
+                    float3 extent = (0.35207, 0.06809276, 0.34820175)
+                    token shapeType = "Box"
+
+                    def RealityKitStruct "pose"
+                    {
+                        float3 position = (0.05777681, 0.19515145, 1.4708079)
+                    }
+                }
+            }
+
+            def Xform "Tom1" (
+                customData = {
+                    float3 rotationEulerHint = (3.8365402, 0.19454873, 3.079135)
+                }
+            )
+            {
+                quatf xformOp:orient = (0.6362389, 0.07335244, -0.703116, 0.30894548)
+                float3 xformOp:scale = (1.6023716, 1.6023716, 1.6023718)
+                float3 xformOp:translate = (0.08754373, 0.21689057, 1.4687976)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "SpatialAudio"
+                {
+                    uniform token info:id = "RealityKit.SpatialAudio"
+                }
+            }
+        }
+
+        over "Group_2"
+        {
+            reorder nameChildren = ["Tom2", "drum_2", "drum4_1", "drum4_2", "InputTarget", "Collider"]
+            float3 xformOp:translate = (2.2140288, 0.09127063, 1.4694557)
+
+            def RealityKitComponent "InputTarget"
+            {
+                uniform token info:id = "RealityKit.InputTarget"
+            }
+
+            def RealityKitComponent "Collider"
+            {
+                uint group = 1
+                uniform token info:id = "RealityKit.Collider"
+                uint mask = 4294967295
+                token type = "Default"
+
+                def RealityKitStruct "Shape"
+                {
+                    float3 extent = (0.35207, 0.06809276, 0.34820175)
+                    token shapeType = "Box"
+
+                    def RealityKitStruct "pose"
+                    {
+                        float3 position = (0.05777681, 0.19515145, 1.4708079)
+                    }
+                }
+            }
+
+            def Xform "Tom2" (
+                customData = {
+                    float3 rotationEulerHint = (3.8365402, 0.19454873, 3.079135)
+                }
+            )
+            {
+                float2 ui:nodegraph:node:pos = (20, 20)
+                int ui:nodegraph:node:stackingOrder = 1
+                quatf xformOp:orient = (0.6362389, 0.073352516, -0.70311606, 0.30894542)
+                float3 xformOp:scale = (1.6023719, 1.6023711, 1.6023719)
+                float3 xformOp:translate = (0.051021814, 0.22204089, 1.469943)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "SpatialAudio"
+                {
+                    uniform token info:id = "RealityKit.SpatialAudio"
+                }
+            }
+        }
+
+        over "Group_3"
+        {
+            reorder nameChildren = ["FloorTom", "drum_2", "drum4_1", "drum4_2", "InputTarget", "Collider"]
+            float3 xformOp:scale = (1.2916664, 1.2916659, 1.291666)
+            float3 xformOp:translate = (2.9686062, -0.13394393, 1.8389968)
+
+            def RealityKitComponent "InputTarget"
+            {
+                uniform token info:id = "RealityKit.InputTarget"
+            }
+
+            def RealityKitComponent "Collider"
+            {
+                uint group = 1
+                uniform token info:id = "RealityKit.Collider"
+                uint mask = 4294967295
+                token type = "Default"
+
+                def RealityKitStruct "Shape"
+                {
+                    float3 extent = (0.35207, 0.06809276, 0.34820175)
+                    token shapeType = "Box"
+
+                    def RealityKitStruct "pose"
+                    {
+                        float3 position = (0.05777681, 0.19515145, 1.4708079)
+                    }
+                }
+            }
+
+            def Xform "FloorTom" (
+                customData = {
+                    float3 rotationEulerHint = (3.8365402, 0.19454873, 3.079135)
+                }
+            )
+            {
+                float2 ui:nodegraph:node:pos = (60, 60)
+                int ui:nodegraph:node:stackingOrder = 3
+                quatf xformOp:orient = (0.6362389, 0.073352575, -0.7031162, 0.3089452)
+                float3 xformOp:scale = (1.0682479, 1.0682473, 1.0682477)
+                float3 xformOp:translate = (0.07055545, 0.22139277, 1.4770327)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "SpatialAudio"
+                {
+                    uniform token info:id = "RealityKit.SpatialAudio"
+                }
+            }
+
+            over "drum2"
+            {
+                float3 xformOp:scale = (0.20103438, 0.20103431, 0.20103416)
+            }
+        }
+
+        over "Group_4" (
+            customData = {
+                float3 rotationEulerHint = (-1.5707965, -2.901006, 1.5707961)
+            }
+        )
+        {
+            quatf xformOp:orient = (0.55638844, 0.43638504, -0.5563883, -0.4363852)
+            float3 xformOp:scale = (1.5960295, 1.5960293, 1.5960294)
+            float3 xformOp:translate = (2.9144468, -0.20873943, 1.3453369)
+
+            def RealityKitComponent "InputTarget"
+            {
+                uniform token info:id = "RealityKit.InputTarget"
+            }
+
+            def RealityKitComponent "Collider"
+            {
+                uint group = 1
+                uniform token info:id = "RealityKit.Collider"
+                uint mask = 4294967295
+                token type = "Default"
+
+                def RealityKitStruct "Shape"
+                {
+                    float3 extent = (0.35207, 0.06809276, 0.34820175)
+                    token shapeType = "Box"
+
+                    def RealityKitStruct "pose"
+                    {
+                        float3 position = (0.05777681, 0.19515145, 1.4708079)
+                    }
+                }
+            }
+        }
+
+        over "Group_5"
+        {
+            reorder nameChildren = ["RideCymbal", "jiazi3", "cha3"]
+            float3 xformOp:translate = (0.091271766, 0, 0.14622857)
+
+            over "cha" (
+                customData = {
+                    float3 rotationEulerHint = (0.4770236, 0.7194322, 1.8897899)
+                }
+            )
+            {
+                reorder nameChildren = ["RideCymbal", "______", "_materials", "env_light", "Collider", "InputTarget"]
+                quatf xformOp:orient = (0.60020953, -0.14765659, 0.3795947, 0.6883704)
+                float3 xformOp:scale = (0.13212965, 0.13212965, 0.13212965)
+                float3 xformOp:translate = (1.1300787, 0.30242056, 0.061941393)
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (3.645424, 4.4762564, 2.9495964)
+                        float height = 4.4762564
+                        float radius = 1.822712
+                        token shapeType = "Capsule"
+
+                        def RealityKitStruct "pose"
+                        {
+                            float3 position = (-4.8974185, 3.9030614, 7.571068)
+                        }
+                    }
+                }
+
+                def RealityKitComponent "InputTarget"
+                {
+                    uniform token info:id = "RealityKit.InputTarget"
+                }
+            }
+
+            def Xform "RideCymbal" (
+                customData = {
+                    float3 rotationEulerHint = (3.1319804, 0.6983335, 2.6978586)
+                }
+            )
+            {
+                float2 ui:nodegraph:node:pos = (100, 100)
+                int ui:nodegraph:node:stackingOrder = 5
+                quatf xformOp:orient = (0.3347189, 0.20516656, 0.9169768, -0.070876546)
+                float3 xformOp:scale = (1.6023716, 1.6023701, 1.6023707)
+                float3 xformOp:translate = (1.0597167, 0.6008162, 1.3655994)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+                def RealityKitComponent "SpatialAudio"
+                {
+                    uniform token info:id = "RealityKit.SpatialAudio"
+                }
+            }
+
+            over "cha3"
+            {
+                def RealityKitComponent "InputTarget"
+                {
+                    uniform token info:id = "RealityKit.InputTarget"
+                }
+
+                def RealityKitComponent "Collider"
+                {
+                    uint group = 1
+                    uniform token info:id = "RealityKit.Collider"
+                    uint mask = 4294967295
+                    token type = "Default"
+
+                    def RealityKitStruct "Shape"
+                    {
+                        float3 extent = (3.645424, 4.4762564, 2.9495964)
+                        float height = 4.4762564
+                        float radius = 1.822712
+                        token shapeType = "Capsule"
+
+                        def RealityKitStruct "pose"
+                        {
+                            float3 position = (-4.8974185, 3.9030614, 7.571068)
+                        }
+                    }
+                }
+            }
+        }
+
+        def RealityKitComponent "RCP_BehaviorsContainer"
+        {
+            rel behaviors = [
+                </Root/NewDrum2/OnNotification>,
+                </Root/NewDrum2/OnNotification2>,
+                </Root/NewDrum2/OnNotification3>,
+                </Root/NewDrum2/OnNotification4>,
+                </Root/NewDrum2/OnNotification5>,
+                </Root/NewDrum2/OnNotification6>,
+                </Root/NewDrum2/OnNotification7>,
+                </Root/NewDrum2/OnNotification8>,
+                </Root/NewDrum2/OnNotification9>,
+                </Root/NewDrum2/OnNotification10>,
+                </Root/NewDrum2/OnNotification11>,
+            ]
+            uniform token info:id = "RCP.BehaviorsContainer"
+        }
+
+        def Preliminary_Behavior "OnNotification"
+        {
+            rel actions = </Root/NewDrum2/OnNotification/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "Tom2Collision"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/Tom2Animation>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def Preliminary_Behavior "OnNotification2"
+        {
+            rel actions = </Root/NewDrum2/OnNotification2/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification2/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "FloorTomCollision"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/FloorTomAnimation>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification2/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def Preliminary_Behavior "OnNotification3"
+        {
+            rel actions = </Root/NewDrum2/OnNotification3/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification3/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "Tom1Collision"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/Tom1Animation>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification3/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def Preliminary_Behavior "OnNotification4"
+        {
+            rel actions = </Root/NewDrum2/OnNotification4/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification4/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "SnareCollision"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/SnareAnimation>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification4/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def Preliminary_Behavior "OnNotification5"
+        {
+            rel actions = </Root/NewDrum2/OnNotification5/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification5/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "CrashCymbal1Collision"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/CrashCymbal1Animation>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification5/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def Preliminary_Behavior "OnNotification6"
+        {
+            rel actions = </Root/NewDrum2/OnNotification6/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification6/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "RideCymbalCollision"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/RideCymbalAnimation>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification6/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def Preliminary_Behavior "OnNotification7"
+        {
+            rel actions = </Root/NewDrum2/OnNotification7/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification7/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "CrashCymbal2Collision"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/CrashCymbal2Animation>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification7/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def Preliminary_Behavior "OnNotification8"
+        {
+            rel actions = </Root/NewDrum2/OnNotification8/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification8/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "HeartAnimation"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/HeartAnimation>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification8/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def Preliminary_Behavior "OnNotification9"
+        {
+            rel actions = </Root/NewDrum2/OnNotification9/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification9/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "Heart1Animation"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/Heart1Animation>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification9/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def Preliminary_Behavior "OnNotification10"
+        {
+            rel actions = </Root/NewDrum2/OnNotification10/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification10/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "Heart2Animation"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/Heart2Animation>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification10/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+
+        def Preliminary_Behavior "OnNotification11"
+        {
+            rel actions = </Root/NewDrum2/OnNotification11/Action>
+            uniform bool exclusive
+            rel triggers = </Root/NewDrum2/OnNotification11/Trigger>
+
+            def Preliminary_Trigger "Trigger"
+            {
+                rel affectedObjects = </Root/zhanshi>
+                string identifier = "LightShowAnimation"
+                token info:id = "Notification"
+            }
+
+            def Preliminary_Action "Action"
+            {
+                rel affectedObjects = </Root>
+                rel animationLibraryKey = </Root/LightShow>
+                rel animationLibraryKeyOverrideKey = </Root/zhanshi/OnNotification11/Trigger>
+                token info:id = "PlayTimeline"
+                int loops = 0
+                int performCount = 1
+                token type = "serial"
+            }
+        }
+    }
+
+    def Xform "Transform" (
+        active = true
+    )
+    {
+        float3 xformOp:translate = (0.6499545, 0.17168047, 0.24465145)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def Xform "SpotLight_1" (
+        customData = {
+            float3 rotationEulerHint = (4.2623916, 0.5403306, -1.737666e-8)
+        }
+    )
+    {
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+        quatf xformOp:orient = (0.51224464, -0.81631786, 0.14185904, 0.22606787)
+        float3 xformOp:scale = (0.9999994, 0.9999995, 0.9999995)
+        float3 xformOp:translate = (-5.2324734, 2.8606122, -3.7686336)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "SpotLight"
+        {
+            float3 color = (0.9113256, 0.9354429, 0.53158164)
+            token info:id = "RealityKit.SpotLight"
+            float innerAngle = 55
+            float intensity = 516741
+            float outerAngle = 90
+
+            def RealityKitStruct "Shadow"
+            {
+                bool isEnabled = 1
+            }
+        }
+
+        def RealityKitComponent "HierarchicalFade"
+        {
+            uniform token info:id = "RealityKit.HierarchicalFade"
+            float opacity = 0
+        }
+    }
+
+    def Xform "SpotLight_2" (
+        customData = {
+            float3 rotationEulerHint = (4.2623916, -0.42960668, -3.2781163e-8)
+        }
+    )
+    {
+        float2 ui:nodegraph:node:pos = (20, 20)
+        int ui:nodegraph:node:stackingOrder = 1
+        quatf xformOp:orient = (0.51930946, -0.8275762, -0.11329731, -0.18055163)
+        float3 xformOp:scale = (0.99999946, 0.9999995, 0.9999995)
+        float3 xformOp:translate = (5.079442, 2.8606122, -3.8220243)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def RealityKitComponent "SpotLight"
+        {
+            float3 color = (0.9113256, 0.9354429, 0.53158164)
+            token info:id = "RealityKit.SpotLight"
+            float innerAngle = 55
+            float intensity = 516741
+            float outerAngle = 90
+
+            def RealityKitStruct "Shadow"
+            {
+                bool isEnabled = 1
+            }
+        }
+
+        def RealityKitComponent "HierarchicalFade"
+        {
+            uniform token info:id = "RealityKit.HierarchicalFade"
+            float opacity = 0
+        }
+    }
+}
+

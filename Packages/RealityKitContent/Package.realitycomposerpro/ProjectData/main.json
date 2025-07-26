@@ -1,0 +1,42 @@
+{
+  "pathsToIds" : {
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/CircleAnimation.usda" : "424B522F-C9A5-4670-BA77-A2B444BA5E73",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "CB766F92-EE55-4A63-9401-E7B8C009764D",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/IP1.usda" : "F396B5BC-F12D-49D4-92E8-12C243E9E949",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/IP2.usda" : "79581B3D-9957-4BD4-93A2-287082F6913E",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "65F6F990-A780-4474-B78B-572E0E4E273D",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "0A9B4653-B11E-4D6A-850E-C6FCB621626C",
+    "\/RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Untitled Scene.usda" : "D560BB77-AAF3-4BDE-B7C4-989332A4688B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/CircleAnimation.usda" : "2173847A-CE7F-4A1C-87CB-F9F4328A7602",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/DrumScene.usda" : "9C6AA81C-9651-425E-8022-9DBA49F8A17A",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/DrumStick.usda" : "F089562F-D092-42F2-9513-57653D4CEEB7",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/DrumStickLeft.usda" : "6ACC1CA7-07B5-428F-A6FF-BA3E0A36C402",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/GridMaterial.usda" : "66168B71-AB05-424E-8B6C-D33D6E61B08F",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/HeartScene.usda" : "7D9B9220-DB98-4BC3-AACA-73EB182E3BE8",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/IP1.usda" : "70AD1CBD-B273-4628-97A2-F19B8B677D4B",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/IP2.usda" : "D16E5644-389B-4F16-B874-3A77AC1DD2D4",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Immersive.usda" : "AF09ED6F-1707-48FD-8720-65B998362C09",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/IntactDrumScene.usda" : "BE0CB09E-FFAF-4589-B22B-F81D80495366",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/RealDrum.usda" : "3CFE3004-2BA8-4A88-9806-63CCB6BF4026",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/RealityComposerPro\/Box.usda" : "B988857B-C329-4A85-AD23-B3AE8CAA1F24",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/RealityComposerPro\/LeftGlove.usda" : "021A110C-0B05-4BDF-B183-9E7F64FC8B72",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/RealityComposerPro\/RightGlove.usda" : "B3B37EAE-9AF1-4648-B330-E500756509B9",
+    "RealityKitContent\/Sources\/RealityKitContent\/RealityKitContent.rkassets\/Scene.usda" : "D66134B1-3681-4A8E-AFE5-29F257229F3B"
+  },
+  "projectID" : -3458924269602797284,
+  "uuidToIntID" : {
+    "2173847A-CE7F-4A1C-87CB-F9F4328A7602" : -4807385218559011278,
+    "3CFE3004-2BA8-4A88-9806-63CCB6BF4026" : 4582141029266883530,
+    "424B522F-C9A5-4670-BA77-A2B444BA5E73" : -5492474118539380483,
+    "6ACC1CA7-07B5-428F-A6FF-BA3E0A36C402" : -2534419127707607619,
+    "70AD1CBD-B273-4628-97A2-F19B8B677D4B" : 5617765698047508132,
+    "79581B3D-9957-4BD4-93A2-287082F6913E" : 4278424755267326623,
+    "7D9B9220-DB98-4BC3-AACA-73EB182E3BE8" : -660463810448908699,
+    "9C6AA81C-9651-425E-8022-9DBA49F8A17A" : 312039655496321516,
+    "B988857B-C329-4A85-AD23-B3AE8CAA1F24" : 4909458305794416194,
+    "BE0CB09E-FFAF-4589-B22B-F81D80495366" : 6783356270732175815,
+    "D16E5644-389B-4F16-B874-3A77AC1DD2D4" : -5464188137200370824,
+    "F089562F-D092-42F2-9513-57653D4CEEB7" : 5289590852987123053,
+    "F396B5BC-F12D-49D4-92E8-12C243E9E949" : -8476721917628064027
+  }
+}
